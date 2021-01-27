@@ -1,0 +1,31 @@
+.header {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+
+  div {
+    display: inline-flex;
+    height: 100%;
+    flex-grow: 1;
+  }
+}
+
+.header-account {
+  display: inline-flex;
+  align-items: center;
+  width: min-content;
+  img {
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  span {
+    font-size: 1.25rem;
+    padding: 0 1rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
