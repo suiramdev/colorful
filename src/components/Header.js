@@ -13,7 +13,7 @@ class Header extends Component {
                 </div>
                 <div style={{flexGrow: 2}}>
                     <div className="header-search">
-                        <SearchIcon />
+                        <a><SearchIcon /></a>
                         <input type="text" placeholder="Search for an item, a brand…" />
                     </div>
                 </div>

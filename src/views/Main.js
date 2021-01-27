@@ -26,10 +26,12 @@ class Main extends Component {
                     </a>
                 </div>
                 <div className="main-showcases">
-                    <a></a>
-                    <a></a>
+                    <div>
+                        <a></a>
+                        <a></a>
+                        <a></a>
+                    </div>
                     <a className="showcase-tall"></a>
-                    <a></a>
                 </div>
             </div>
         );
