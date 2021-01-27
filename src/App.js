@@ -1,13 +1,18 @@
 import React, {Component} from 'react';
 import './App.scss';
-import Main from './views/Main';
-import Header from "./components/Header";
+import Header from "components/Header";
+import Explorer from 'components/Explorer';
+import Main from 'views/Main';
 
 class App extends Component {
     render() {
         return (
-            <div>
+            <div className="app">
                 <Header />
+                <div className="app__content">
+                    <Explorer />
+                    <Main />
+                </div>
             </div>
         );
     }

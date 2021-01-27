@@ -1,0 +1,33 @@
+.explorer {
+  width: 25%;
+  margin-right: 10%;
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 2rem;
+
+    li {
+      display: inline-flex;
+      width: fit-content;
+      padding-top: 1.25rem;
+      transition: transform 0.2s linear;
+
+      span {
+        display: flex;
+        justify-content: center;
+        width: 20px;
+        margin-right: 1rem;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
