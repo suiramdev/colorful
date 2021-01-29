@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <div className="header">
                 <div>
-                    <h1>website</h1>
+                    <h1>colorful</h1>
                 </div>
                 <div style={{flexGrow: 2}}>
                     <div className="header-search">
@@ -18,11 +18,16 @@ class Header extends Component {
                     </div>
                 </div>
                 <div style={{justifyContent: "flex-end"}}>
-                    <a className="header-account">
+                    <div className="header-account">
                         <img src={unknownUser}></img>
                         <span>hello <b>Marius</b></span>
                         <ArrowDropDownIcon />
-                    </a>
+                        <div className="header-account_dropdown">
+                            <a>Shopping cart</a>
+                            <a>Settings</a>
+                            <a>Disconnect</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
