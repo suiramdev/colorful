@@ -3,6 +3,7 @@ import './App.scss';
 import Header from "components/Header";
 import Explorer from 'components/Explorer';
 import Main from 'views/Main';
+import Articles from "./views/Articles";
 
 class App extends Component {
     render() {
@@ -11,7 +12,7 @@ class App extends Component {
                 <Header />
                 <div className="app__content">
                     <Explorer />
-                    <Main />
+                    <Articles />
                 </div>
             </div>
         );
