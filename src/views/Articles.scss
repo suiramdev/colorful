@@ -17,8 +17,26 @@
 }
 
 .article {
+  display: flex;
+  flex-direction: column;
+  color: #4e4e4e;
+
   &:hover {
     cursor: pointer;
+
+    .article-showcase {
+      box-shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(180deg);
   }
 }
 
@@ -29,10 +47,15 @@
   width: 150px;
   height: 150px;
   padding: 0.25rem;
+  margin-bottom: 0.5rem;
   background-color: #ABEAEA;
   border-radius: 16px;
 
   img {
     height: 100%;
   }
+}
+
+.article-price {
+  font-size: 0.9rem;
 }

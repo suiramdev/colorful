@@ -31,7 +31,10 @@
 
       &:hover {
         cursor: pointer;
-        background-color: #EAABC8;
+
+        &::after {
+          transform: translateX(0%);
+        }
       }
     }
   }
